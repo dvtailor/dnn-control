@@ -1,0 +1,73 @@
+dataset path: /home/dharmesh/Documents/neurocontroller-hotm/datasets_and_models/bebop/dataset.npy
+output indices: [6, 7]
+learning rule: adam
+learning rate: 0.001
+minibatch size: 512
+hid layer dims: [100]
+
+Train on 9440000 samples, validate on 1180000 samples
+Epoch 1/500
+ - 85s - loss: 0.0174 - mean_absolute_error: 0.0687 - val_loss: 0.0120 - val_mean_absolute_error: 0.0529
+Epoch 2/500
+ - 83s - loss: 0.0105 - mean_absolute_error: 0.0477 - val_loss: 0.0096 - val_mean_absolute_error: 0.0449
+Epoch 3/500
+ - 83s - loss: 0.0091 - mean_absolute_error: 0.0435 - val_loss: 0.0087 - val_mean_absolute_error: 0.0417
+Epoch 4/500
+ - 83s - loss: 0.0085 - mean_absolute_error: 0.0418 - val_loss: 0.0083 - val_mean_absolute_error: 0.0420
+Epoch 5/500
+ - 83s - loss: 0.0081 - mean_absolute_error: 0.0408 - val_loss: 0.0079 - val_mean_absolute_error: 0.0403
+Epoch 6/500
+ - 83s - loss: 0.0077 - mean_absolute_error: 0.0396 - val_loss: 0.0075 - val_mean_absolute_error: 0.0382
+Epoch 7/500
+ - 83s - loss: 0.0074 - mean_absolute_error: 0.0385 - val_loss: 0.0075 - val_mean_absolute_error: 0.0404
+Epoch 8/500
+ - 83s - loss: 0.0072 - mean_absolute_error: 0.0377 - val_loss: 0.0071 - val_mean_absolute_error: 0.0371
+Epoch 9/500
+ - 83s - loss: 0.0070 - mean_absolute_error: 0.0370 - val_loss: 0.0070 - val_mean_absolute_error: 0.0375
+Epoch 10/500
+ - 83s - loss: 0.0068 - mean_absolute_error: 0.0364 - val_loss: 0.0069 - val_mean_absolute_error: 0.0368
+Epoch 11/500
+ - 83s - loss: 0.0067 - mean_absolute_error: 0.0359 - val_loss: 0.0066 - val_mean_absolute_error: 0.0359
+Epoch 12/500
+ - 84s - loss: 0.0066 - mean_absolute_error: 0.0354 - val_loss: 0.0064 - val_mean_absolute_error: 0.0347
+Epoch 13/500
+ - 83s - loss: 0.0064 - mean_absolute_error: 0.0349 - val_loss: 0.0067 - val_mean_absolute_error: 0.0376
+Epoch 14/500
+ - 83s - loss: 0.0063 - mean_absolute_error: 0.0345 - val_loss: 0.0063 - val_mean_absolute_error: 0.0350
+Epoch 15/500
+ - 83s - loss: 0.0062 - mean_absolute_error: 0.0341 - val_loss: 0.0061 - val_mean_absolute_error: 0.0332
+Epoch 16/500
+ - 84s - loss: 0.0061 - mean_absolute_error: 0.0338 - val_loss: 0.0061 - val_mean_absolute_error: 0.0330
+Epoch 17/500
+ - 83s - loss: 0.0061 - mean_absolute_error: 0.0336 - val_loss: 0.0060 - val_mean_absolute_error: 0.0336
+Epoch 18/500
+ - 83s - loss: 0.0060 - mean_absolute_error: 0.0334 - val_loss: 0.0059 - val_mean_absolute_error: 0.0322
+Epoch 19/500
+ - 83s - loss: 0.0059 - mean_absolute_error: 0.0332 - val_loss: 0.0059 - val_mean_absolute_error: 0.0331
+Epoch 20/500
+ - 83s - loss: 0.0059 - mean_absolute_error: 0.0330 - val_loss: 0.0058 - val_mean_absolute_error: 0.0323
+Epoch 21/500
+ - 83s - loss: 0.0058 - mean_absolute_error: 0.0328 - val_loss: 0.0058 - val_mean_absolute_error: 0.0322
+Epoch 22/500
+ - 83s - loss: 0.0058 - mean_absolute_error: 0.0326 - val_loss: 0.0059 - val_mean_absolute_error: 0.0333
+Epoch 23/500
+ - 83s - loss: 0.0058 - mean_absolute_error: 0.0325 - val_loss: 0.0057 - val_mean_absolute_error: 0.0311
+Epoch 24/500
+ - 84s - loss: 0.0057 - mean_absolute_error: 0.0323 - val_loss: 0.0057 - val_mean_absolute_error: 0.0339
+Epoch 25/500
+ - 83s - loss: 0.0057 - mean_absolute_error: 0.0321 - val_loss: 0.0056 - val_mean_absolute_error: 0.0308
+Epoch 26/500
+ - 83s - loss: 0.0056 - mean_absolute_error: 0.0320 - val_loss: 0.0055 - val_mean_absolute_error: 0.0303
+Epoch 27/500
+ - 83s - loss: 0.0056 - mean_absolute_error: 0.0318 - val_loss: 0.0055 - val_mean_absolute_error: 0.0328
+Epoch 28/500
+ - 83s - loss: 0.0056 - mean_absolute_error: 0.0317 - val_loss: 0.0056 - val_mean_absolute_error: 0.0326
+Epoch 29/500
+ - 84s - loss: 0.0055 - mean_absolute_error: 0.0315 - val_loss: 0.0054 - val_mean_absolute_error: 0.0320
+
+Epoch 00029: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+Epoch 30/500
+ - 83s - loss: 0.0054 - mean_absolute_error: 0.0304 - val_loss: 0.0054 - val_mean_absolute_error: 0.0307
+Epoch 31/500
+ - 83s - loss: 0.0054 - mean_absolute_error: 0.0303 - val_loss: 0.0053 - val_mean_absolute_error: 0.0304
+Epoch 00031: early stopping

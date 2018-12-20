@@ -1,0 +1,41 @@
+dataset path: /home/dharmesh/Documents/neurocontroller-hotm/datasets_and_models/bebop/dataset.npy
+output indices: [6, 7]
+learning rule: adam
+learning rate: 0.001
+minibatch size: 512
+hid layer dims: [50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
+
+Train on 9440000 samples, validate on 1180000 samples
+Epoch 1/500
+ - 183s - loss: 0.0065 - mean_absolute_error: 0.0332 - val_loss: 0.0034 - val_mean_absolute_error: 0.0208
+Epoch 2/500
+ - 181s - loss: 0.0032 - mean_absolute_error: 0.0166 - val_loss: 0.0029 - val_mean_absolute_error: 0.0118
+Epoch 3/500
+ - 181s - loss: 0.0030 - mean_absolute_error: 0.0138 - val_loss: 0.0029 - val_mean_absolute_error: 0.0133
+Epoch 4/500
+ - 181s - loss: 0.0029 - mean_absolute_error: 0.0124 - val_loss: 0.0029 - val_mean_absolute_error: 0.0113
+Epoch 5/500
+ - 180s - loss: 0.0029 - mean_absolute_error: 0.0120 - val_loss: 0.0029 - val_mean_absolute_error: 0.0112
+Epoch 6/500
+ - 181s - loss: 0.0028 - mean_absolute_error: 0.0113 - val_loss: 0.0028 - val_mean_absolute_error: 0.0114
+Epoch 7/500
+ - 177s - loss: 0.0028 - mean_absolute_error: 0.0109 - val_loss: 0.0028 - val_mean_absolute_error: 0.0101
+Epoch 8/500
+ - 180s - loss: 0.0028 - mean_absolute_error: 0.0111 - val_loss: 0.0029 - val_mean_absolute_error: 0.0136
+Epoch 9/500
+ - 174s - loss: 0.0028 - mean_absolute_error: 0.0108 - val_loss: 0.0028 - val_mean_absolute_error: 0.0095
+Epoch 10/500
+ - 175s - loss: 0.0028 - mean_absolute_error: 0.0104 - val_loss: 0.0028 - val_mean_absolute_error: 0.0093
+Epoch 11/500
+ - 175s - loss: 0.0028 - mean_absolute_error: 0.0105 - val_loss: 0.0028 - val_mean_absolute_error: 0.0102
+Epoch 12/500
+ - 181s - loss: 0.0028 - mean_absolute_error: 0.0102 - val_loss: 0.0029 - val_mean_absolute_error: 0.0130
+Epoch 13/500
+ - 167s - loss: 0.0028 - mean_absolute_error: 0.0102 - val_loss: 0.0028 - val_mean_absolute_error: 0.0100
+
+Epoch 00013: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+Epoch 14/500
+ - 168s - loss: 0.0027 - mean_absolute_error: 0.0087 - val_loss: 0.0029 - val_mean_absolute_error: 0.0121
+Epoch 15/500
+ - 170s - loss: 0.0027 - mean_absolute_error: 0.0083 - val_loss: 0.0030 - val_mean_absolute_error: 0.0131
+Epoch 00015: early stopping

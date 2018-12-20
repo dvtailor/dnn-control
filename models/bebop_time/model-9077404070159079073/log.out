@@ -1,0 +1,203 @@
+dataset path: /home/dharmesh/Documents/neurocontroller-hotm/datasets_and_models/bebop_time/dataset.npy
+output indices: [6, 7]
+learning rule: adam
+learning rate: 0.001
+minibatch size: 512
+hid layer dims: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+
+Train on 9440000 samples, validate on 1180000 samples
+Epoch 1/500
+ - 189s - loss: 0.0689 - mean_absolute_error: 0.0850 - val_loss: 0.0322 - val_mean_absolute_error: 0.0475
+Epoch 2/500
+ - 183s - loss: 0.0270 - mean_absolute_error: 0.0383 - val_loss: 0.0354 - val_mean_absolute_error: 0.0379
+Epoch 3/500
+ - 183s - loss: 0.0223 - mean_absolute_error: 0.0325 - val_loss: 0.0198 - val_mean_absolute_error: 0.0314
+Epoch 4/500
+ - 182s - loss: 0.0200 - mean_absolute_error: 0.0298 - val_loss: 0.0159 - val_mean_absolute_error: 0.0263
+Epoch 5/500
+ - 183s - loss: 0.0188 - mean_absolute_error: 0.0284 - val_loss: 0.0161 - val_mean_absolute_error: 0.0254
+Epoch 6/500
+ - 182s - loss: 0.0179 - mean_absolute_error: 0.0275 - val_loss: 0.0155 - val_mean_absolute_error: 0.0242
+Epoch 7/500
+ - 187s - loss: 0.0173 - mean_absolute_error: 0.0268 - val_loss: 0.0168 - val_mean_absolute_error: 0.0262
+Epoch 8/500
+ - 188s - loss: 0.0168 - mean_absolute_error: 0.0263 - val_loss: 0.0148 - val_mean_absolute_error: 0.0237
+Epoch 9/500
+ - 185s - loss: 0.0166 - mean_absolute_error: 0.0262 - val_loss: 0.0185 - val_mean_absolute_error: 0.0268
+Epoch 10/500
+ - 186s - loss: 0.0163 - mean_absolute_error: 0.0258 - val_loss: 0.0145 - val_mean_absolute_error: 0.0241
+Epoch 11/500
+ - 186s - loss: 0.0161 - mean_absolute_error: 0.0255 - val_loss: 0.0160 - val_mean_absolute_error: 0.0255
+
+Epoch 00011: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+Epoch 12/500
+ - 187s - loss: 0.0135 - mean_absolute_error: 0.0218 - val_loss: 0.0139 - val_mean_absolute_error: 0.0214
+Epoch 13/500
+ - 187s - loss: 0.0134 - mean_absolute_error: 0.0216 - val_loss: 0.0131 - val_mean_absolute_error: 0.0211
+Epoch 14/500
+ - 186s - loss: 0.0134 - mean_absolute_error: 0.0215 - val_loss: 0.0132 - val_mean_absolute_error: 0.0210
+Epoch 15/500
+ - 184s - loss: 0.0133 - mean_absolute_error: 0.0214 - val_loss: 0.0131 - val_mean_absolute_error: 0.0211
+Epoch 16/500
+ - 184s - loss: 0.0132 - mean_absolute_error: 0.0212 - val_loss: 0.0146 - val_mean_absolute_error: 0.0230
+Epoch 17/500
+ - 184s - loss: 0.0132 - mean_absolute_error: 0.0212 - val_loss: 0.0139 - val_mean_absolute_error: 0.0226
+
+Epoch 00017: ReduceLROnPlateau reducing learning rate to 0.0002500000118743628.
+Epoch 18/500
+ - 186s - loss: 0.0121 - mean_absolute_error: 0.0194 - val_loss: 0.0127 - val_mean_absolute_error: 0.0200
+Epoch 19/500
+ - 186s - loss: 0.0121 - mean_absolute_error: 0.0193 - val_loss: 0.0122 - val_mean_absolute_error: 0.0194
+Epoch 20/500
+ - 185s - loss: 0.0120 - mean_absolute_error: 0.0192 - val_loss: 0.0119 - val_mean_absolute_error: 0.0189
+Epoch 21/500
+ - 185s - loss: 0.0120 - mean_absolute_error: 0.0192 - val_loss: 0.0122 - val_mean_absolute_error: 0.0195
+Epoch 22/500
+ - 186s - loss: 0.0120 - mean_absolute_error: 0.0191 - val_loss: 0.0121 - val_mean_absolute_error: 0.0187
+Epoch 23/500
+ - 186s - loss: 0.0120 - mean_absolute_error: 0.0191 - val_loss: 0.0119 - val_mean_absolute_error: 0.0188
+Epoch 24/500
+ - 185s - loss: 0.0120 - mean_absolute_error: 0.0191 - val_loss: 0.0120 - val_mean_absolute_error: 0.0189
+Epoch 25/500
+ - 186s - loss: 0.0120 - mean_absolute_error: 0.0190 - val_loss: 0.0121 - val_mean_absolute_error: 0.0189
+
+Epoch 00025: ReduceLROnPlateau reducing learning rate to 0.0001250000059371814.
+Epoch 26/500
+ - 186s - loss: 0.0115 - mean_absolute_error: 0.0181 - val_loss: 0.0115 - val_mean_absolute_error: 0.0181
+Epoch 27/500
+ - 187s - loss: 0.0114 - mean_absolute_error: 0.0180 - val_loss: 0.0118 - val_mean_absolute_error: 0.0182
+Epoch 28/500
+ - 184s - loss: 0.0114 - mean_absolute_error: 0.0180 - val_loss: 0.0116 - val_mean_absolute_error: 0.0181
+Epoch 29/500
+ - 187s - loss: 0.0114 - mean_absolute_error: 0.0180 - val_loss: 0.0119 - val_mean_absolute_error: 0.0184
+
+Epoch 00029: ReduceLROnPlateau reducing learning rate to 6.25000029685907e-05.
+Epoch 30/500
+ - 188s - loss: 0.0112 - mean_absolute_error: 0.0175 - val_loss: 0.0114 - val_mean_absolute_error: 0.0177
+Epoch 31/500
+ - 187s - loss: 0.0111 - mean_absolute_error: 0.0175 - val_loss: 0.0113 - val_mean_absolute_error: 0.0176
+Epoch 32/500
+ - 187s - loss: 0.0111 - mean_absolute_error: 0.0174 - val_loss: 0.0112 - val_mean_absolute_error: 0.0174
+Epoch 33/500
+ - 188s - loss: 0.0111 - mean_absolute_error: 0.0174 - val_loss: 0.0114 - val_mean_absolute_error: 0.0176
+Epoch 34/500
+ - 187s - loss: 0.0111 - mean_absolute_error: 0.0174 - val_loss: 0.0115 - val_mean_absolute_error: 0.0183
+Epoch 35/500
+ - 183s - loss: 0.0111 - mean_absolute_error: 0.0174 - val_loss: 0.0113 - val_mean_absolute_error: 0.0174
+Epoch 36/500
+ - 186s - loss: 0.0111 - mean_absolute_error: 0.0174 - val_loss: 0.0114 - val_mean_absolute_error: 0.0177
+Epoch 37/500
+ - 187s - loss: 0.0111 - mean_absolute_error: 0.0173 - val_loss: 0.0114 - val_mean_absolute_error: 0.0174
+Epoch 38/500
+ - 185s - loss: 0.0111 - mean_absolute_error: 0.0173 - val_loss: 0.0112 - val_mean_absolute_error: 0.0174
+Epoch 39/500
+ - 187s - loss: 0.0111 - mean_absolute_error: 0.0173 - val_loss: 0.0114 - val_mean_absolute_error: 0.0175
+Epoch 40/500
+ - 186s - loss: 0.0111 - mean_absolute_error: 0.0173 - val_loss: 0.0113 - val_mean_absolute_error: 0.0173
+Epoch 41/500
+ - 189s - loss: 0.0111 - mean_absolute_error: 0.0173 - val_loss: 0.0114 - val_mean_absolute_error: 0.0178
+Epoch 42/500
+ - 187s - loss: 0.0111 - mean_absolute_error: 0.0172 - val_loss: 0.0113 - val_mean_absolute_error: 0.0173
+Epoch 43/500
+ - 189s - loss: 0.0111 - mean_absolute_error: 0.0172 - val_loss: 0.0113 - val_mean_absolute_error: 0.0172
+Epoch 44/500
+ - 190s - loss: 0.0111 - mean_absolute_error: 0.0172 - val_loss: 0.0113 - val_mean_absolute_error: 0.0174
+Epoch 45/500
+ - 189s - loss: 0.0111 - mean_absolute_error: 0.0172 - val_loss: 0.0115 - val_mean_absolute_error: 0.0183
+Epoch 46/500
+ - 189s - loss: 0.0110 - mean_absolute_error: 0.0172 - val_loss: 0.0113 - val_mean_absolute_error: 0.0177
+
+Epoch 00046: ReduceLROnPlateau reducing learning rate to 3.125000148429535e-05.
+Epoch 47/500
+ - 189s - loss: 0.0109 - mean_absolute_error: 0.0170 - val_loss: 0.0112 - val_mean_absolute_error: 0.0173
+Epoch 48/500
+ - 189s - loss: 0.0109 - mean_absolute_error: 0.0170 - val_loss: 0.0112 - val_mean_absolute_error: 0.0172
+Epoch 49/500
+ - 189s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0112 - val_mean_absolute_error: 0.0176
+Epoch 50/500
+ - 189s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0112 - val_mean_absolute_error: 0.0171
+Epoch 51/500
+ - 189s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0112 - val_mean_absolute_error: 0.0173
+Epoch 52/500
+ - 189s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0113 - val_mean_absolute_error: 0.0173
+Epoch 53/500
+ - 190s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0112 - val_mean_absolute_error: 0.0170
+Epoch 54/500
+ - 193s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0111 - val_mean_absolute_error: 0.0170
+Epoch 55/500
+ - 191s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0111 - val_mean_absolute_error: 0.0171
+Epoch 56/500
+ - 191s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0112 - val_mean_absolute_error: 0.0172
+Epoch 57/500
+ - 192s - loss: 0.0109 - mean_absolute_error: 0.0169 - val_loss: 0.0112 - val_mean_absolute_error: 0.0171
+
+Epoch 00057: ReduceLROnPlateau reducing learning rate to 1.5625000742147677e-05.
+Epoch 58/500
+ - 191s - loss: 0.0108 - mean_absolute_error: 0.0168 - val_loss: 0.0111 - val_mean_absolute_error: 0.0170
+Epoch 59/500
+ - 193s - loss: 0.0108 - mean_absolute_error: 0.0167 - val_loss: 0.0111 - val_mean_absolute_error: 0.0171
+Epoch 60/500
+ - 189s - loss: 0.0108 - mean_absolute_error: 0.0167 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 61/500
+ - 185s - loss: 0.0108 - mean_absolute_error: 0.0167 - val_loss: 0.0112 - val_mean_absolute_error: 0.0170
+Epoch 62/500
+ - 184s - loss: 0.0108 - mean_absolute_error: 0.0167 - val_loss: 0.0111 - val_mean_absolute_error: 0.0170
+Epoch 63/500
+ - 184s - loss: 0.0108 - mean_absolute_error: 0.0167 - val_loss: 0.0111 - val_mean_absolute_error: 0.0171
+
+Epoch 00063: ReduceLROnPlateau reducing learning rate to 7.812500371073838e-06.
+Epoch 64/500
+ - 182s - loss: 0.0108 - mean_absolute_error: 0.0167 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 65/500
+ - 183s - loss: 0.0108 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 66/500
+ - 183s - loss: 0.0108 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 67/500
+ - 183s - loss: 0.0108 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 68/500
+ - 184s - loss: 0.0108 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 69/500
+ - 182s - loss: 0.0108 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0171
+Epoch 70/500
+ - 184s - loss: 0.0108 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 3.906250185536919e-06.
+Epoch 71/500
+ - 187s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0168
+Epoch 72/500
+ - 185s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0170
+Epoch 73/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 74/500
+ - 183s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.9531250927684596e-06.
+Epoch 75/500
+ - 181s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0168
+Epoch 76/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 77/500
+ - 183s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0168
+Epoch 78/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 79/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 80/500
+ - 186s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0168
+
+Epoch 00080: ReduceLROnPlateau reducing learning rate to 1e-06.
+Epoch 81/500
+ - 186s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 82/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0168
+Epoch 83/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 84/500
+ - 183s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 85/500
+ - 183s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 86/500
+ - 184s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0168
+Epoch 87/500
+ - 185s - loss: 0.0107 - mean_absolute_error: 0.0166 - val_loss: 0.0111 - val_mean_absolute_error: 0.0169
+Epoch 00087: early stopping
