@@ -18,3 +18,10 @@ Datasets are provided so the rest of the code is usable if these are unavailable
 
 The environment variable needs to be set: `PYTHONHASHSEED=0` as the code responsible for exporting and reading trained keras models depends on reproducible hashes.
 It is easiest to add this to the *activate* script of virtualenv where the variable can be unset also on deactivation.
+
+Package `PyDDE` cannot be installed with *pip* and must be installed from source:
+```
+git clone https://github.com/hensing/PyDDE.git
+cd PyDDE
+python setup.py install
+```
