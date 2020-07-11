@@ -3,8 +3,8 @@
 This code demonstrates how to train optimal state-feedback controllers for a 2D quadcopter model represented by a feedforward neural network.
 
 The properties of these controllers are investigated in the following papers:
-* Tailor, D., Izzo, D. Learning the optimal state-feedback via supervised imitation learning. [In Preparation]
-* [Izzo D., Tailor D., Vasileiou T. On the stability analysis of optimal state feedbacks as represented by deep neural models.]()
+* [Tailor, D., Izzo, D. (2019). Learning the optimal state-feedback via supervised imitation learning. *Astrodynamics (Springer)*.](https://link.springer.com/article/10.1007/s42064-019-0054-0)
+* [Izzo D., Tailor D., Vasileiou T. (2019). On the stability analysis of optimal state feedbacks as represented by deep neural models. *In Review*](https://arxiv.org/abs/1812.02532)
 
 ---
 
